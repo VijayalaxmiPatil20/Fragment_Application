@@ -119,6 +119,7 @@ public class FragmentA extends Fragment {
 //        getListView().setOnItemClickListener((AdapterView.OnItemClickListener) this);
     }
 
+    //Adapter class
     private class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewHolder> {
 
         ArrayList<CountryDetails> myCountryDetails;
@@ -148,6 +149,7 @@ public class FragmentA extends Fragment {
         }
     }
 
+    //Viewholder class to hold all the views
     private class MyRecyclerViewHolder extends RecyclerView.ViewHolder{
         private CountryDetails mCountryDetails;
         public ImageView mImageView;
