@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Fragment Application</string>
+    
+    <string-array name="Country">
+        <item> India </item>
+        <item> USA </item>
+        <item> Japan </item>
+        <item> Sweden </item>
+        <item> France </item>
+    </string-array>
+    <string-array name="Country_capital">
+        <item> New Delhi </item>
+        <item> California </item>
+        <item> Tokyo </item>
+        <item> Lund </item>
+        <item> Paris </item>
+    </string-array>
+
+</resources>
