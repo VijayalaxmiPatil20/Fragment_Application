@@ -34,6 +34,7 @@ public class FragmentA extends Fragment {
 
     MyRecyclerViewAdapter myRecyclerViewAdapter;
 
+    //Interface to get the details of this fragment to another fragment or activity
     public interface FragmentAListener {
         void onInputASent(CharSequence input);
     }
